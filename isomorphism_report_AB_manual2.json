@@ -1,0 +1,1308 @@
+{
+  "inputs": {
+    "alg1": "D:\\OneDrive - mail.xhu.edu.cn\\Isomorphism\\Lie_algebra\\compute_derivations.py",
+    "alg2": "D:\\OneDrive - mail.xhu.edu.cn\\Isomorphism\\Lie_algebra\\invariant_extractor_B.py",
+    "n": 23
+  },
+  "step1_quick_invariants": {
+    "alg1": {
+      "n": 23,
+      "center_dim": 0,
+      "derived_dim": 21,
+      "derived_series_dims": [
+        21
+      ],
+      "lower_central_dims": [
+        23,
+        21
+      ],
+      "nilradical_candidate_dim": 21,
+      "extension_dim": 2,
+      "extension_order_adapted_1based": [
+        22,
+        23
+      ],
+      "nil_order_adapted_1based": [
+        5,
+        4,
+        6,
+        7,
+        2,
+        3,
+        8,
+        1,
+        9,
+        10,
+        12,
+        16,
+        18,
+        21,
+        11,
+        13,
+        14,
+        15,
+        17,
+        19,
+        20
+      ],
+      "weight_block_signature": [
+        [
+          [
+            "0",
+            "2"
+          ],
+          6
+        ],
+        [
+          [
+            "1",
+            "0"
+          ],
+          7
+        ],
+        [
+          [
+            "1/2",
+            "1"
+          ],
+          8
+        ]
+      ],
+      "weight_blocks": [
+        {
+          "weight": [
+            "1/2",
+            "1"
+          ],
+          "size": 8,
+          "original_indices_1based": [
+            5,
+            4,
+            6,
+            7,
+            2,
+            3,
+            8,
+            1
+          ]
+        },
+        {
+          "weight": [
+            "0",
+            "2"
+          ],
+          "size": 6,
+          "original_indices_1based": [
+            9,
+            10,
+            12,
+            16,
+            18,
+            21
+          ]
+        },
+        {
+          "weight": [
+            "1",
+            "0"
+          ],
+          "size": 7,
+          "original_indices_1based": [
+            11,
+            13,
+            14,
+            15,
+            17,
+            19,
+            20
+          ]
+        }
+      ],
+      "nil_kernel_labels_preview": [
+        [
+          "V",
+          "4"
+        ],
+        [
+          "V",
+          "4"
+        ],
+        [
+          "V",
+          "3"
+        ],
+        [
+          "V",
+          "6"
+        ],
+        [
+          "V",
+          "3"
+        ],
+        [
+          "V",
+          "2"
+        ],
+        [
+          "V",
+          "2"
+        ],
+        [
+          "V",
+          "2"
+        ],
+        [
+          "Z",
+          "1"
+        ],
+        [
+          "Z",
+          "1"
+        ],
+        [
+          "Z",
+          "1"
+        ],
+        [
+          "Z",
+          "1"
+        ]
+      ]
+    },
+    "alg2": {
+      "n": 23,
+      "center_dim": 0,
+      "derived_dim": 21,
+      "derived_series_dims": [
+        21
+      ],
+      "lower_central_dims": [
+        23,
+        21
+      ],
+      "nilradical_candidate_dim": 21,
+      "extension_dim": 2,
+      "extension_order_adapted_1based": [
+        22,
+        23
+      ],
+      "nil_order_adapted_1based": [
+        8,
+        7,
+        5,
+        4,
+        3,
+        1,
+        6,
+        2,
+        9,
+        10,
+        11,
+        13,
+        14,
+        18,
+        12,
+        15,
+        16,
+        17,
+        19,
+        20,
+        21
+      ],
+      "weight_block_signature": [
+        [
+          [
+            "0",
+            "2"
+          ],
+          6
+        ],
+        [
+          [
+            "1",
+            "0"
+          ],
+          7
+        ],
+        [
+          [
+            "1/2",
+            "1"
+          ],
+          8
+        ]
+      ],
+      "weight_blocks": [
+        {
+          "weight": [
+            "1/2",
+            "1"
+          ],
+          "size": 8,
+          "original_indices_1based": [
+            8,
+            7,
+            5,
+            4,
+            3,
+            1,
+            6,
+            2
+          ]
+        },
+        {
+          "weight": [
+            "0",
+            "2"
+          ],
+          "size": 6,
+          "original_indices_1based": [
+            9,
+            10,
+            11,
+            13,
+            14,
+            18
+          ]
+        },
+        {
+          "weight": [
+            "1",
+            "0"
+          ],
+          "size": 7,
+          "original_indices_1based": [
+            12,
+            15,
+            16,
+            17,
+            19,
+            20,
+            21
+          ]
+        }
+      ],
+      "nil_kernel_labels_preview": [
+        [
+          "V",
+          "3"
+        ],
+        [
+          "V",
+          "2"
+        ],
+        [
+          "V",
+          "4"
+        ],
+        [
+          "V",
+          "4"
+        ],
+        [
+          "V",
+          "2"
+        ],
+        [
+          "V",
+          "3"
+        ],
+        [
+          "V",
+          "6"
+        ],
+        [
+          "V",
+          "2"
+        ],
+        [
+          "Z",
+          "1"
+        ],
+        [
+          "Z",
+          "1"
+        ],
+        [
+          "Z",
+          "1"
+        ],
+        [
+          "Z",
+          "1"
+        ]
+      ]
+    }
+  },
+  "step2_bracket_tensor_on_nilradical_candidate": {
+    "alg1": {
+      "Z_dim": 13,
+      "V_dim": 8,
+      "pair_count": 28,
+      "map_rank": 13,
+      "component_ranks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "alg2": {
+      "Z_dim": 13,
+      "V_dim": 8,
+      "pair_count": 28,
+      "map_rank": 13,
+      "component_ranks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  },
+  "step2b_matrix_group_signature": {
+    "alg1": {
+      "center_indices_1based": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "V_indices_1based": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "component_count": 13,
+      "weak_signature": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "component_signatures": [
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              1,
+              3
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              1,
+              7
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              2,
+              4
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              2,
+              5
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              2,
+              6
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              3,
+              8
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              4,
+              5
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              4,
+              7
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              4,
+              8
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              5,
+              6
+            ]
+          ]
+        }
+      ]
+    },
+    "alg2": {
+      "center_indices_1based": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "V_indices_1based": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "component_count": 13,
+      "weak_signature": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "component_signatures": [
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              1,
+              3
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              1,
+              7
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              2,
+              7
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              3,
+              7
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              3,
+              8
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              4,
+              5
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              4,
+              6
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              4,
+              7
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              5,
+              6
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              7,
+              8
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "step3_extension_action_profile": {
+    "alg1": {
+      "extension_dim": 2,
+      "level": "quick",
+      "actions": [
+        {
+          "t_index_adapted_1based": 22,
+          "rank": 15,
+          "trace": 11
+        },
+        {
+          "t_index_adapted_1based": 23,
+          "rank": 14,
+          "trace": 20
+        }
+      ]
+    },
+    "alg2": {
+      "extension_dim": 2,
+      "level": "quick",
+      "actions": [
+        {
+          "t_index_adapted_1based": 22,
+          "rank": 15,
+          "trace": 11
+        },
+        {
+          "t_index_adapted_1based": 23,
+          "rank": 14,
+          "trace": 20
+        }
+      ]
+    }
+  },
+  "linear_stage_decision": {
+    "checks": {
+      "dim": 1,
+      "center_dim": 1,
+      "derived_dim": 1,
+      "derived_series_dims": 1,
+      "lower_central_dims": 1,
+      "nilradical_candidate_dim": 1,
+      "extension_dim": 1,
+      "weight_blocks": 1,
+      "bracket_tensor.Z_dim": 1,
+      "bracket_tensor.map_rank": 1,
+      "bracket_tensor.component_ranks": 1,
+      "extension_action_signatures": 1,
+      "matrix_group_signature": 1
+    },
+    "linear_stage_pass": 1
+  },
+  "step5_candidate_change_of_basis_system": {
+    "unknown_blocks": {
+      "Xn_shape": [
+        21,
+        21
+      ],
+      "Xt_shape": [
+        2,
+        2
+      ],
+      "Y_shape": [
+        21,
+        2
+      ],
+      "unknown_count": 68,
+      "unknown_count_before": 147,
+      "active_unknowns_by_block": {
+        "Xn": 37,
+        "Xt": 2,
+        "Y": 29
+      },
+      "forced_zero_count": 66,
+      "blocked_by_weight_count": 340
+    },
+    "generation_limits": {
+      "max_pairs": 500,
+      "max_equations_preview": 500,
+      "pairs_used": 253
+    },
+    "equation_count_total": 223,
+    "equation_count_before": 5819,
+    "compression": {
+      "dedup_and_substitution_applied": 1,
+      "forced_zero_symbols_preview": [
+        "xN_10_11",
+        "xN_10_12",
+        "xN_10_13",
+        "xN_10_14",
+        "xN_10_9",
+        "xN_11_10",
+        "xN_11_11",
+        "xN_11_12",
+        "xN_11_13",
+        "xN_11_14",
+        "xN_12_10",
+        "xN_12_11",
+        "xN_12_12",
+        "xN_12_9",
+        "xN_13_10",
+        "xN_13_12",
+        "xN_13_13",
+        "xN_13_14",
+        "xN_13_9",
+        "xN_14_10",
+        "xN_14_11",
+        "xN_14_13",
+        "xN_14_14",
+        "xN_14_9",
+        "xN_15_15",
+        "xN_15_16",
+        "xN_15_18",
+        "xN_15_19",
+        "xN_15_20",
+        "xN_15_21",
+        "xN_16_15",
+        "xN_16_16",
+        "xN_16_17",
+        "xN_16_18",
+        "xN_16_19",
+        "xN_17_16",
+        "xN_17_17",
+        "xN_17_18",
+        "xN_17_19",
+        "xN_17_20",
+        "xN_17_21",
+        "xN_18_15",
+        "xN_18_16",
+        "xN_18_17",
+        "xN_18_20",
+        "xN_18_21",
+        "xN_19_15",
+        "xN_19_16",
+        "xN_19_17",
+        "xN_19_18",
+        "xN_19_19",
+        "xN_20_15",
+        "xN_20_16",
+        "xN_20_17",
+        "xN_20_20",
+        "xN_20_21",
+        "xN_21_15",
+        "xN_21_17",
+        "xN_21_18",
+        "xN_21_19",
+        "xN_21_20",
+        "xN_21_21",
+        "xN_9_10",
+        "xN_9_11",
+        "xN_9_12",
+        "xN_9_9"
+      ]
+    },
+    "equations_preview": [
+      "-xN_11_9 + xN_3_1*xN_4_2 - xN_3_2*xN_4_1",
+      "xN_10_10 - xN_1_3*xN_3_1",
+      "xN_4_1*xN_6_3",
+      "xN_18_19 - xN_3_1*xN_7_4",
+      "xN_20_19 - xN_4_1*xN_7_4",
+      "-xN_1_5*xN_3_1",
+      "xN_4_1*xN_6_5",
+      "xN_3_1*xN_8_6",
+      "xN_4_1*xN_5_6",
+      "xN_14_12 + xN_3_1*xN_8_7",
+      "xN_4_1*xN_5_7",
+      "xN_3_1*xN_8_8",
+      "xN_4_1*xN_5_8",
+      "-xN_3_1*xT_1_1/2 + xN_3_1/2",
+      "-xN_4_1*xT_1_1/2 + xN_4_1/2",
+      "-xN_3_1*y_1_1",
+      "xN_3_1*y_4_1 - xN_4_1*y_3_1",
+      "xN_3_1*y_8_1",
+      "xN_4_1*y_5_1",
+      "-xN_3_1*y_7_1",
+      "-xN_4_1*y_7_1",
+      "xN_4_1*y_6_1",
+      "-xN_3_1*xT_2_2 + xN_3_1",
+      "-xN_4_1*xT_2_2 + xN_4_1",
+      "-xN_3_1*y_1_2",
+      "xN_3_1*y_4_2 - xN_4_1*y_3_2",
+      "xN_3_1*y_8_2",
+      "xN_4_1*y_5_2",
+      "-xN_3_1*y_7_2",
+      "-xN_4_1*y_7_2",
+      "xN_4_1*y_6_2",
+      "-xN_1_3*xN_3_2",
+      "xN_4_2*xN_6_3",
+      "xN_18_18 - xN_3_2*xN_7_4",
+      "xN_20_18 - xN_4_2*xN_7_4",
+      "-xN_1_5*xN_3_2",
+      "-xN_21_16 + xN_4_2*xN_6_5",
+      "xN_3_2*xN_8_6",
+      "-xN_15_17 + xN_4_2*xN_5_6",
+      "xN_3_2*xN_8_7",
+      "xN_4_2*xN_5_7",
+      "xN_3_2*xN_8_8",
+      "xN_4_2*xN_5_8",
+      "-xN_3_2*xT_1_1/2 + xN_3_2/2",
+      "-xN_4_2*xT_1_1/2 + xN_4_2/2",
+      "-xN_3_2*y_1_1",
+      "xN_3_2*y_4_1 - xN_4_2*y_3_1",
+      "xN_3_2*y_8_1",
+      "xN_4_2*y_5_1",
+      "-xN_3_2*y_7_1",
+      "-xN_4_2*y_7_1",
+      "xN_4_2*y_6_1",
+      "-xN_3_2*xT_2_2 + xN_3_2",
+      "-xN_4_2*xT_2_2 + xN_4_2",
+      "-xN_3_2*y_1_2",
+      "xN_3_2*y_4_2 - xN_4_2*y_3_2",
+      "xN_3_2*y_8_2",
+      "xN_4_2*y_5_2",
+      "-xN_3_2*y_7_2",
+      "-xN_4_2*y_7_2",
+      "xN_4_2*y_6_2",
+      "-xN_6_3*xN_7_4",
+      "xN_17_15 + xN_1_3*xN_7_4",
+      "xN_1_3*xN_2_6",
+      "-xN_5_6*xN_6_3",
+      "xN_1_3*xN_2_7",
+      "-xN_5_7*xN_6_3",
+      "xN_1_3*xN_2_8 - xN_9_13",
+      "-xN_12_13 - xN_5_8*xN_6_3",
+      "-xN_1_3*xT_1_1/2 + xN_1_3/2",
+      "-xN_6_3*xT_1_1/2 + xN_6_3/2",
+      "xN_1_3*y_2_1",
+      "xN_1_3*y_3_1",
+      "-xN_6_3*y_5_1",
+      "-xN_6_3*y_7_1",
+      "xN_1_3*y_7_1",
+      "-xN_6_3*y_4_1",
+      "-xN_1_3*xT_2_2 + xN_1_3",
+      "-xN_6_3*xT_2_2 + xN_6_3",
+      "xN_1_3*y_2_2",
+      "xN_1_3*y_3_2",
+      "-xN_6_3*y_5_2",
+      "-xN_6_3*y_7_2",
+      "xN_1_3*y_7_2",
+      "-xN_6_3*y_4_2",
+      "-xN_13_11 + xN_6_5*xN_7_4",
+      "-xN_1_5*xN_7_4",
+      "-xN_2_6*xN_7_4",
+      "xN_7_4*xN_8_6",
+      "xN_16_21 - xN_2_7*xN_7_4",
+      "xN_19_21 + xN_7_4*xN_8_7",
+      "-xN_16_20 - xN_2_8*xN_7_4",
+      "-xN_19_20 + xN_7_4*xN_8_8",
+      "-xN_7_4*xT_1_1/2 + xN_7_4/2",
+      "xN_7_4*y_6_1",
+      "-xN_7_4*y_2_1",
+      "-xN_7_4*y_1_1",
+      "xN_7_4*y_3_1",
+      "xN_7_4*y_8_1",
+      "xN_7_4*y_4_1",
+      "-xN_7_4*xT_2_2 + xN_7_4",
+      "xN_7_4*y_6_2",
+      "-xN_7_4*y_2_2",
+      "-xN_7_4*y_1_2",
+      "xN_7_4*y_3_2",
+      "xN_7_4*y_8_2",
+      "xN_7_4*y_4_2",
+      "xN_1_5*xN_2_6 + xN_9_14",
+      "xN_12_14 - xN_5_6*xN_6_5",
+      "xN_1_5*xN_2_7",
+      "-xN_5_7*xN_6_5",
+      "xN_1_5*xN_2_8",
+      "-xN_5_8*xN_6_5",
+      "-xN_1_5*xT_1_1/2 + xN_1_5/2",
+      "-xN_6_5*xT_1_1/2 + xN_6_5/2",
+      "xN_1_5*y_2_1",
+      "xN_1_5*y_3_1",
+      "-xN_6_5*y_5_1",
+      "-xN_6_5*y_7_1",
+      "xN_1_5*y_7_1",
+      "-xN_6_5*y_4_1",
+      "-xN_1_5*xT_2_2 + xN_1_5",
+      "-xN_6_5*xT_2_2 + xN_6_5",
+      "xN_1_5*y_2_2",
+      "xN_1_5*y_3_2",
+      "-xN_6_5*y_5_2",
+      "-xN_6_5*y_7_2",
+      "xN_1_5*y_7_2",
+      "-xN_6_5*y_4_2",
+      "-xN_2_6*xT_1_1/2 + xN_2_6/2",
+      "-xN_5_6*xT_1_1/2 + xN_5_6/2",
+      "-xN_8_6*xT_1_1/2 + xN_8_6/2",
+      "-xN_2_6*y_1_1",
+      "xN_5_6*y_6_1",
+      "-xN_8_6*y_3_1",
+      "-xN_5_6*y_4_1",
+      "xN_2_6*y_7_1",
+      "-xN_8_6*y_7_1",
+      "-xN_2_6*xT_2_2 + xN_2_6",
+      "-xN_5_6*xT_2_2 + xN_5_6",
+      "-xN_8_6*xT_2_2 + xN_8_6",
+      "-xN_2_6*y_1_2",
+      "xN_5_6*y_6_2",
+      "-xN_8_6*y_3_2",
+      "-xN_5_6*y_4_2",
+      "xN_2_6*y_7_2",
+      "-xN_8_6*y_7_2",
+      "-xN_2_7*xT_1_1/2 + xN_2_7/2",
+      "-xN_5_7*xT_1_1/2 + xN_5_7/2",
+      "-xN_8_7*xT_1_1/2 + xN_8_7/2",
+      "-xN_2_7*y_1_1",
+      "xN_5_7*y_6_1",
+      "-xN_8_7*y_3_1",
+      "-xN_5_7*y_4_1",
+      "xN_2_7*y_7_1",
+      "-xN_8_7*y_7_1",
+      "-xN_2_7*xT_2_2 + xN_2_7",
+      "-xN_5_7*xT_2_2 + xN_5_7",
+      "-xN_8_7*xT_2_2 + xN_8_7",
+      "-xN_2_7*y_1_2",
+      "xN_5_7*y_6_2",
+      "-xN_8_7*y_3_2",
+      "-xN_5_7*y_4_2",
+      "xN_2_7*y_7_2",
+      "-xN_8_7*y_7_2",
+      "-xN_2_8*xT_1_1/2 + xN_2_8/2",
+      "-xN_5_8*xT_1_1/2 + xN_5_8/2",
+      "-xN_8_8*xT_1_1/2 + xN_8_8/2",
+      "-xN_2_8*y_1_1",
+      "xN_5_8*y_6_1",
+      "-xN_8_8*y_3_1",
+      "-xN_5_8*y_4_1",
+      "xN_2_8*y_7_1",
+      "-xN_8_8*y_7_1",
+      "-xN_2_8*xT_2_2 + xN_2_8",
+      "-xN_5_8*xT_2_2 + xN_5_8",
+      "-xN_8_8*xT_2_2 + xN_8_8",
+      "-xN_2_8*y_1_2",
+      "xN_5_8*y_6_2",
+      "-xN_8_8*y_3_2",
+      "-xN_5_8*y_4_2",
+      "xN_2_8*y_7_2",
+      "-xN_8_8*y_7_2",
+      "-2*xN_11_9*xT_2_2 + 2*xN_11_9",
+      "-2*xN_10_10*xT_2_2 + 2*xN_10_10",
+      "-2*xN_13_11*xT_2_2 + 2*xN_13_11",
+      "-2*xN_14_12*xT_2_2 + 2*xN_14_12",
+      "-2*xN_9_13*xT_2_2 + 2*xN_9_13",
+      "-2*xN_12_13*xT_2_2 + 2*xN_12_13",
+      "-2*xN_9_14*xT_2_2 + 2*xN_9_14",
+      "-2*xN_12_14*xT_2_2 + 2*xN_12_14",
+      "-xN_17_15*xT_1_1 + xN_17_15",
+      "-xN_21_16*xT_1_1 + xN_21_16",
+      "-xN_15_17*xT_1_1 + xN_15_17",
+      "-xN_18_18*xT_1_1 + xN_18_18",
+      "-xN_20_18*xT_1_1 + xN_20_18",
+      "-xN_18_19*xT_1_1 + xN_18_19",
+      "-xN_20_19*xT_1_1 + xN_20_19",
+      "-xN_16_20*xT_1_1 + xN_16_20",
+      "-xN_19_20*xT_1_1 + xN_19_20",
+      "-xN_16_21*xT_1_1 + xN_16_21",
+      "-xN_19_21*xT_1_1 + xN_19_21",
+      "xT_1_1*y_1_2/2 - xT_2_2*y_1_1",
+      "xT_1_1*y_2_2/2 - xT_2_2*y_2_1",
+      "xT_1_1*y_3_2/2 - xT_2_2*y_3_1",
+      "xT_1_1*y_4_2/2 - xT_2_2*y_4_1",
+      "xT_1_1*y_5_2/2 - xT_2_2*y_5_1",
+      "xT_1_1*y_6_2/2 - xT_2_2*y_6_1",
+      "xT_1_1*y_7_2/2 - xT_2_2*y_7_1",
+      "xT_1_1*y_8_2/2 - xT_2_2*y_8_1",
+      "-2*xT_2_2*y_9_1 + y_1_1*y_2_2 - y_1_2*y_2_1",
+      "-2*xT_2_2*y_10_1 + y_1_1*y_3_2 - y_1_2*y_3_1",
+      "-2*xT_2_2*y_11_1 + y_3_1*y_4_2 - y_3_2*y_4_1",
+      "-2*xT_2_2*y_12_1 + y_5_1*y_6_2 - y_5_2*y_6_1",
+      "-2*xT_2_2*y_13_1 - y_6_1*y_7_2 + y_6_2*y_7_1",
+      "-2*xT_2_2*y_14_1 + y_3_1*y_8_2 - y_3_2*y_8_1",
+      "xT_1_1*y_15_2 + y_4_1*y_5_2 - y_4_2*y_5_1",
+      "xT_1_1*y_16_2 + y_2_1*y_7_2 - y_2_2*y_7_1",
+      "xT_1_1*y_17_2 + y_1_1*y_7_2 - y_1_2*y_7_1",
+      "xT_1_1*y_18_2 - y_3_1*y_7_2 + y_3_2*y_7_1",
+      "xT_1_1*y_19_2 + y_7_1*y_8_2 - y_7_2*y_8_1",
+      "xT_1_1*y_20_2 - y_4_1*y_7_2 + y_4_2*y_7_1",
+      "xT_1_1*y_21_2 + y_4_1*y_6_2 - y_4_2*y_6_1"
+    ],
+    "det_constraints": {
+      "det_Xn_nonzero": "det(Xn) != 0",
+      "det_Xt_nonzero": "det(Xt) != 0"
+    }
+  },
+  "step6_hybrid_chain": {
+    "modp_fingerprint": {
+      "primes": [
+        101,
+        103,
+        107,
+        109,
+        113
+      ],
+      "linear_equation_count": 0,
+      "variable_count": 68,
+      "by_prime": [
+        {
+          "p": 101,
+          "rank_A": 0,
+          "rank_aug": 0,
+          "consistent": 1,
+          "nullity": 68,
+          "jacobian_rank_random_point": 45,
+          "jacobian_rows": 96,
+          "jacobian_cols": 48
+        },
+        {
+          "p": 103,
+          "rank_A": 0,
+          "rank_aug": 0,
+          "consistent": 1,
+          "nullity": 68,
+          "jacobian_rank_random_point": 45,
+          "jacobian_rows": 96,
+          "jacobian_cols": 48
+        },
+        {
+          "p": 107,
+          "rank_A": 0,
+          "rank_aug": 0,
+          "consistent": 1,
+          "nullity": 68,
+          "jacobian_rank_random_point": 45,
+          "jacobian_rows": 96,
+          "jacobian_cols": 48
+        },
+        {
+          "p": 109,
+          "rank_A": 0,
+          "rank_aug": 0,
+          "consistent": 1,
+          "nullity": 68,
+          "jacobian_rank_random_point": 45,
+          "jacobian_rows": 96,
+          "jacobian_cols": 48
+        },
+        {
+          "p": 113,
+          "rank_A": 0,
+          "rank_aug": 0,
+          "consistent": 1,
+          "nullity": 68,
+          "jacobian_rank_random_point": 45,
+          "jacobian_rows": 96,
+          "jacobian_cols": 48
+        }
+      ]
+    },
+    "numeric_candidate": {
+      "max_vars": 68,
+      "max_eqs": 160,
+      "restarts": 90,
+      "selected_variable_count": 55,
+      "selected_equation_count": 160,
+      "success": 0,
+      "note": "adaptive numeric solve failed on all tiers",
+      "method": "sympy.nsolve",
+      "adaptive_attempts": [
+        {
+          "max_vars": 40,
+          "max_eqs": 80,
+          "restarts": 30,
+          "selected_variable_count": 39,
+          "selected_equation_count": 80,
+          "success": 0,
+          "note": "numeric solve failed on reduced subsystem"
+        },
+        {
+          "max_vars": 52,
+          "max_eqs": 120,
+          "restarts": 60,
+          "selected_variable_count": 52,
+          "selected_equation_count": 120,
+          "success": 0,
+          "note": "numeric solve failed on reduced subsystem"
+        },
+        {
+          "max_vars": 68,
+          "max_eqs": 160,
+          "restarts": 90,
+          "selected_variable_count": 55,
+          "selected_equation_count": 160,
+          "success": 0,
+          "note": "numeric solve failed on reduced subsystem"
+        }
+      ],
+      "adaptive_mode": 1
+    },
+    "exact_back_substitution": {
+      "note": "exact verification skipped (no numeric candidate)"
+    }
+  },
+  "notes": [
+    "This script treats [g,g] as a nilradical candidate for the target class (2-step nilpotent kernel + low-dimensional solvable extension).",
+    "If linear_stage_pass is false, the pair is rejected as non-isomorphic by linear filters.",
+    "If linear_stage_pass is true, use the generated block system for nonlinear solving (Groebner / elimination / numeric-assisted exact checks)."
+  ]
+}

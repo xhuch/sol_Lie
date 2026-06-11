@@ -1,0 +1,2025 @@
+{
+  "inputs": {
+    "alg1": "D:\\OneDrive - mail.xhu.edu.cn\\Isomorphism\\Lie_algebra\\compute_derivations.py",
+    "alg2": "D:\\OneDrive - mail.xhu.edu.cn\\Isomorphism\\Lie_algebra\\invariant_extractor_B.py",
+    "n": 23
+  },
+  "step1_quick_invariants": {
+    "alg1": {
+      "n": 23,
+      "center_dim": 0,
+      "derived_dim": 21,
+      "derived_series_dims": [
+        21
+      ],
+      "lower_central_dims": [
+        23,
+        21
+      ],
+      "nilradical_candidate_dim": 21,
+      "extension_dim": 2,
+      "extension_order_adapted_1based": [
+        22,
+        23
+      ],
+      "nil_order_adapted_1based": [
+        5,
+        4,
+        6,
+        7,
+        2,
+        3,
+        8,
+        1,
+        9,
+        10,
+        12,
+        16,
+        18,
+        21,
+        11,
+        13,
+        14,
+        15,
+        17,
+        19,
+        20
+      ],
+      "weight_block_signature": [
+        [
+          [
+            "0",
+            "2"
+          ],
+          6
+        ],
+        [
+          [
+            "1",
+            "0"
+          ],
+          7
+        ],
+        [
+          [
+            "1/2",
+            "1"
+          ],
+          8
+        ]
+      ],
+      "weight_blocks": [
+        {
+          "weight": [
+            "1/2",
+            "1"
+          ],
+          "size": 8,
+          "original_indices_1based": [
+            5,
+            4,
+            6,
+            7,
+            2,
+            3,
+            8,
+            1
+          ]
+        },
+        {
+          "weight": [
+            "0",
+            "2"
+          ],
+          "size": 6,
+          "original_indices_1based": [
+            9,
+            10,
+            12,
+            16,
+            18,
+            21
+          ]
+        },
+        {
+          "weight": [
+            "1",
+            "0"
+          ],
+          "size": 7,
+          "original_indices_1based": [
+            11,
+            13,
+            14,
+            15,
+            17,
+            19,
+            20
+          ]
+        }
+      ],
+      "nil_kernel_labels_preview": [
+        [
+          "V",
+          "4"
+        ],
+        [
+          "V",
+          "4"
+        ],
+        [
+          "V",
+          "3"
+        ],
+        [
+          "V",
+          "6"
+        ],
+        [
+          "V",
+          "3"
+        ],
+        [
+          "V",
+          "2"
+        ],
+        [
+          "V",
+          "2"
+        ],
+        [
+          "V",
+          "2"
+        ],
+        [
+          "Z",
+          "1"
+        ],
+        [
+          "Z",
+          "1"
+        ],
+        [
+          "Z",
+          "1"
+        ],
+        [
+          "Z",
+          "1"
+        ]
+      ],
+      "derivation_dim": null,
+      "extension_weight_multiset_preview": [
+        [
+          "0",
+          "2"
+        ],
+        [
+          "0",
+          "2"
+        ],
+        [
+          "0",
+          "2"
+        ],
+        [
+          "0",
+          "2"
+        ],
+        [
+          "0",
+          "2"
+        ],
+        [
+          "0",
+          "2"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ]
+    },
+    "alg2": {
+      "n": 23,
+      "center_dim": 0,
+      "derived_dim": 21,
+      "derived_series_dims": [
+        21
+      ],
+      "lower_central_dims": [
+        23,
+        21
+      ],
+      "nilradical_candidate_dim": 21,
+      "extension_dim": 2,
+      "extension_order_adapted_1based": [
+        22,
+        23
+      ],
+      "nil_order_adapted_1based": [
+        8,
+        7,
+        5,
+        4,
+        3,
+        1,
+        6,
+        2,
+        9,
+        10,
+        11,
+        13,
+        14,
+        18,
+        12,
+        15,
+        16,
+        17,
+        19,
+        20,
+        21
+      ],
+      "weight_block_signature": [
+        [
+          [
+            "0",
+            "2"
+          ],
+          6
+        ],
+        [
+          [
+            "1",
+            "0"
+          ],
+          7
+        ],
+        [
+          [
+            "1/2",
+            "1"
+          ],
+          8
+        ]
+      ],
+      "weight_blocks": [
+        {
+          "weight": [
+            "1/2",
+            "1"
+          ],
+          "size": 8,
+          "original_indices_1based": [
+            8,
+            7,
+            5,
+            4,
+            3,
+            1,
+            6,
+            2
+          ]
+        },
+        {
+          "weight": [
+            "0",
+            "2"
+          ],
+          "size": 6,
+          "original_indices_1based": [
+            9,
+            10,
+            11,
+            13,
+            14,
+            18
+          ]
+        },
+        {
+          "weight": [
+            "1",
+            "0"
+          ],
+          "size": 7,
+          "original_indices_1based": [
+            12,
+            15,
+            16,
+            17,
+            19,
+            20,
+            21
+          ]
+        }
+      ],
+      "nil_kernel_labels_preview": [
+        [
+          "V",
+          "3"
+        ],
+        [
+          "V",
+          "2"
+        ],
+        [
+          "V",
+          "4"
+        ],
+        [
+          "V",
+          "4"
+        ],
+        [
+          "V",
+          "2"
+        ],
+        [
+          "V",
+          "3"
+        ],
+        [
+          "V",
+          "6"
+        ],
+        [
+          "V",
+          "2"
+        ],
+        [
+          "Z",
+          "1"
+        ],
+        [
+          "Z",
+          "1"
+        ],
+        [
+          "Z",
+          "1"
+        ],
+        [
+          "Z",
+          "1"
+        ]
+      ],
+      "derivation_dim": null,
+      "extension_weight_multiset_preview": [
+        [
+          "0",
+          "2"
+        ],
+        [
+          "0",
+          "2"
+        ],
+        [
+          "0",
+          "2"
+        ],
+        [
+          "0",
+          "2"
+        ],
+        [
+          "0",
+          "2"
+        ],
+        [
+          "0",
+          "2"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ]
+    }
+  },
+  "step2_bracket_tensor_on_nilradical_candidate": {
+    "alg1": {
+      "Z_dim": 13,
+      "V_dim": 8,
+      "pair_count": 28,
+      "map_rank": 13,
+      "component_ranks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "profile_mode": "fast_2step",
+      "modp_prefilter": {
+        "available": 0,
+        "reason": "disabled",
+        "primes": [
+          101,
+          103,
+          107,
+          109,
+          113
+        ],
+        "signature": null,
+        "by_prime": [],
+        "stopped_early": 0
+      }
+    },
+    "alg2": {
+      "Z_dim": 13,
+      "V_dim": 8,
+      "pair_count": 28,
+      "map_rank": 13,
+      "component_ranks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "profile_mode": "fast_2step",
+      "modp_prefilter": {
+        "available": 0,
+        "reason": "disabled",
+        "primes": [
+          101,
+          103,
+          107,
+          109,
+          113
+        ],
+        "signature": null,
+        "by_prime": [],
+        "stopped_early": 0
+      }
+    }
+  },
+  "step2b_matrix_group_signature": {
+    "alg1": {
+      "center_indices_1based": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "V_indices_1based": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "component_count": 13,
+      "weak_signature": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "component_signatures": [
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              1,
+              3
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              1,
+              7
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              2,
+              4
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              2,
+              5
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              2,
+              6
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              3,
+              8
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              4,
+              5
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              4,
+              7
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              4,
+              8
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              5,
+              6
+            ]
+          ]
+        }
+      ]
+    },
+    "alg2": {
+      "center_indices_1based": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "V_indices_1based": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "component_count": 13,
+      "weak_signature": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "component_signatures": [
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              1,
+              3
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              1,
+              7
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              2,
+              7
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              3,
+              7
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              3,
+              8
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              4,
+              5
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              4,
+              6
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              4,
+              7
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              5,
+              6
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              6,
+              7
+            ]
+          ]
+        },
+        {
+          "rank": 2,
+          "upper_nnz": 1,
+          "support_pairs": [
+            [
+              7,
+              8
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "step3_extension_action_profile": {
+    "alg1": {
+      "extension_dim": 2,
+      "level": "quick",
+      "actions": [
+        {
+          "t_index_adapted_1based": 22,
+          "rank": 15,
+          "trace": 11
+        },
+        {
+          "t_index_adapted_1based": 23,
+          "rank": 14,
+          "trace": 20
+        }
+      ],
+      "joint_plane": {
+        "common_kernel_dim": 0,
+        "image_sum_dim": 21,
+        "commutator_rank": 0,
+        "combo_rank_trace_signature": [
+          [
+            1,
+            0,
+            15,
+            "11"
+          ],
+          [
+            0,
+            1,
+            14,
+            "20"
+          ],
+          [
+            1,
+            1,
+            21,
+            "31"
+          ],
+          [
+            1,
+            -1,
+            21,
+            "-9"
+          ],
+          [
+            2,
+            1,
+            21,
+            "42"
+          ]
+        ]
+      },
+      "modp_prefilter": {
+        "available": 0,
+        "reason": "disabled",
+        "primes": [
+          101,
+          103,
+          107,
+          109,
+          113
+        ],
+        "signature": null,
+        "by_prime": [],
+        "stopped_early": 0
+      }
+    },
+    "alg2": {
+      "extension_dim": 2,
+      "level": "quick",
+      "actions": [
+        {
+          "t_index_adapted_1based": 22,
+          "rank": 15,
+          "trace": 11
+        },
+        {
+          "t_index_adapted_1based": 23,
+          "rank": 14,
+          "trace": 20
+        }
+      ],
+      "joint_plane": {
+        "common_kernel_dim": 0,
+        "image_sum_dim": 21,
+        "commutator_rank": 0,
+        "combo_rank_trace_signature": [
+          [
+            1,
+            0,
+            15,
+            "11"
+          ],
+          [
+            0,
+            1,
+            14,
+            "20"
+          ],
+          [
+            1,
+            1,
+            21,
+            "31"
+          ],
+          [
+            1,
+            -1,
+            21,
+            "-9"
+          ],
+          [
+            2,
+            1,
+            21,
+            "42"
+          ]
+        ]
+      },
+      "modp_prefilter": {
+        "available": 0,
+        "reason": "disabled",
+        "primes": [
+          101,
+          103,
+          107,
+          109,
+          113
+        ],
+        "signature": null,
+        "by_prime": [],
+        "stopped_early": 0
+      }
+    }
+  },
+  "step3b_autn_oriented_signature": {
+    "alg1": {
+      "block_signature": [
+        [
+          [
+            "1/2",
+            "1"
+          ],
+          8
+        ],
+        [
+          [
+            "0",
+            "2"
+          ],
+          6
+        ],
+        [
+          [
+            "1",
+            "0"
+          ],
+          7
+        ]
+      ],
+      "action_block_signatures": [
+        {
+          "diag_rank_trace": [
+            [
+              0,
+              8,
+              "4"
+            ],
+            [
+              1,
+              0,
+              "0"
+            ],
+            [
+              2,
+              7,
+              "7"
+            ]
+          ],
+          "offdiag_rank": []
+        },
+        {
+          "diag_rank_trace": [
+            [
+              0,
+              8,
+              "8"
+            ],
+            [
+              1,
+              6,
+              "12"
+            ],
+            [
+              2,
+              0,
+              "0"
+            ]
+          ],
+          "offdiag_rank": []
+        }
+      ],
+      "joint_block_signature": [
+        {
+          "block": 0,
+          "size": 8,
+          "common_kernel_dim": 0,
+          "image_sum_dim": 8,
+          "commutator_rank": 0,
+          "combo_rank_trace_signature": [
+            [
+              1,
+              0,
+              8,
+              "4"
+            ],
+            [
+              0,
+              1,
+              8,
+              "8"
+            ],
+            [
+              1,
+              1,
+              8,
+              "12"
+            ],
+            [
+              1,
+              -1,
+              8,
+              "-4"
+            ],
+            [
+              2,
+              1,
+              8,
+              "16"
+            ]
+          ]
+        },
+        {
+          "block": 1,
+          "size": 6,
+          "common_kernel_dim": 0,
+          "image_sum_dim": 6,
+          "commutator_rank": 0,
+          "combo_rank_trace_signature": [
+            [
+              1,
+              0,
+              0,
+              "0"
+            ],
+            [
+              0,
+              1,
+              6,
+              "12"
+            ],
+            [
+              1,
+              1,
+              6,
+              "12"
+            ],
+            [
+              1,
+              -1,
+              6,
+              "-12"
+            ],
+            [
+              2,
+              1,
+              6,
+              "12"
+            ]
+          ]
+        },
+        {
+          "block": 2,
+          "size": 7,
+          "common_kernel_dim": 0,
+          "image_sum_dim": 7,
+          "commutator_rank": 0,
+          "combo_rank_trace_signature": [
+            [
+              1,
+              0,
+              7,
+              "7"
+            ],
+            [
+              0,
+              1,
+              0,
+              "0"
+            ],
+            [
+              1,
+              1,
+              7,
+              "7"
+            ],
+            [
+              1,
+              -1,
+              7,
+              "7"
+            ],
+            [
+              2,
+              1,
+              7,
+              "14"
+            ]
+          ]
+        }
+      ]
+    },
+    "alg2": {
+      "block_signature": [
+        [
+          [
+            "1/2",
+            "1"
+          ],
+          8
+        ],
+        [
+          [
+            "0",
+            "2"
+          ],
+          6
+        ],
+        [
+          [
+            "1",
+            "0"
+          ],
+          7
+        ]
+      ],
+      "action_block_signatures": [
+        {
+          "diag_rank_trace": [
+            [
+              0,
+              8,
+              "4"
+            ],
+            [
+              1,
+              0,
+              "0"
+            ],
+            [
+              2,
+              7,
+              "7"
+            ]
+          ],
+          "offdiag_rank": []
+        },
+        {
+          "diag_rank_trace": [
+            [
+              0,
+              8,
+              "8"
+            ],
+            [
+              1,
+              6,
+              "12"
+            ],
+            [
+              2,
+              0,
+              "0"
+            ]
+          ],
+          "offdiag_rank": []
+        }
+      ],
+      "joint_block_signature": [
+        {
+          "block": 0,
+          "size": 8,
+          "common_kernel_dim": 0,
+          "image_sum_dim": 8,
+          "commutator_rank": 0,
+          "combo_rank_trace_signature": [
+            [
+              1,
+              0,
+              8,
+              "4"
+            ],
+            [
+              0,
+              1,
+              8,
+              "8"
+            ],
+            [
+              1,
+              1,
+              8,
+              "12"
+            ],
+            [
+              1,
+              -1,
+              8,
+              "-4"
+            ],
+            [
+              2,
+              1,
+              8,
+              "16"
+            ]
+          ]
+        },
+        {
+          "block": 1,
+          "size": 6,
+          "common_kernel_dim": 0,
+          "image_sum_dim": 6,
+          "commutator_rank": 0,
+          "combo_rank_trace_signature": [
+            [
+              1,
+              0,
+              0,
+              "0"
+            ],
+            [
+              0,
+              1,
+              6,
+              "12"
+            ],
+            [
+              1,
+              1,
+              6,
+              "12"
+            ],
+            [
+              1,
+              -1,
+              6,
+              "-12"
+            ],
+            [
+              2,
+              1,
+              6,
+              "12"
+            ]
+          ]
+        },
+        {
+          "block": 2,
+          "size": 7,
+          "common_kernel_dim": 0,
+          "image_sum_dim": 7,
+          "commutator_rank": 0,
+          "combo_rank_trace_signature": [
+            [
+              1,
+              0,
+              7,
+              "7"
+            ],
+            [
+              0,
+              1,
+              0,
+              "0"
+            ],
+            [
+              1,
+              1,
+              7,
+              "7"
+            ],
+            [
+              1,
+              -1,
+              7,
+              "7"
+            ],
+            [
+              2,
+              1,
+              7,
+              "14"
+            ]
+          ]
+        }
+      ]
+    },
+    "enabled": 1
+  },
+  "step3c_matrix_pencil_signature": {
+    "alg1": {
+      "available": 1,
+      "reason": null,
+      "samples": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1,
+          -1,
+          1,
+          -1,
+          1,
+          -1,
+          1,
+          -1,
+          1,
+          -1,
+          1
+        ]
+      ],
+      "sample_rank_signature": [
+        [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          2
+        ],
+        [
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          2
+        ],
+        [
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          8
+        ],
+        [
+          [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          8
+        ]
+      ]
+    },
+    "alg2": {
+      "available": 1,
+      "reason": null,
+      "samples": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1,
+          -1,
+          1,
+          -1,
+          1,
+          -1,
+          1,
+          -1,
+          1,
+          -1,
+          1
+        ]
+      ],
+      "sample_rank_signature": [
+        [
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          2
+        ],
+        [
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          2
+        ],
+        [
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          2
+        ],
+        [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          8
+        ],
+        [
+          [
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1,
+            -1,
+            1
+          ],
+          8
+        ]
+      ]
+    },
+    "enabled": 1
+  },
+  "linear_stage_decision": {
+    "checks": {
+      "dim": 1,
+      "center_dim": 1,
+      "derived_dim": 1,
+      "derived_series_dims": 1,
+      "lower_central_dims": 1,
+      "nilradical_candidate_dim": 1,
+      "extension_dim": 1,
+      "weight_blocks": 1,
+      "extension_weight_multiset": 1,
+      "bracket_tensor.Z_dim": 1,
+      "bracket_tensor.map_rank": 1,
+      "bracket_tensor.component_ranks": 1,
+      "extension_action_signatures": 1,
+      "extension_joint_plane_signature": 1,
+      "autn_oriented_signature": 1,
+      "matrix_pencil_signature": 1,
+      "bracket_tensor.modp_signature": 1,
+      "extension_action.modp_signature": 1,
+      "matrix_group_signature": 1
+    },
+    "linear_stage_pass": 1,
+    "modp_prefilter": {
+      "mode": "auto",
+      "mode_effective": "off",
+      "primes": [
+        101,
+        103,
+        107,
+        109,
+        113
+      ],
+      "checked_primes": [],
+      "accepted": 1
+    },
+    "autn_signature": {
+      "enabled": 1
+    }
+  },
+  "step4_exact_sparse_monomial_search": {
+    "applicable": 1,
+    "success": 1,
+    "method": "exact sparse monomial search",
+    "permutations_tested": 1,
+    "full_permutation_count": 40320,
+    "color_class_permutation_upper_bound": 24,
+    "exact_bracket_residual_count": 0,
+    "basis_map_1based": [
+      {
+        "source": 1,
+        "target": 7,
+        "scale": 1
+      },
+      {
+        "source": 2,
+        "target": 1,
+        "scale": 1
+      },
+      {
+        "source": 3,
+        "target": 3,
+        "scale": 1
+      },
+      {
+        "source": 4,
+        "target": 4,
+        "scale": 1
+      },
+      {
+        "source": 5,
+        "target": 5,
+        "scale": 1
+      },
+      {
+        "source": 6,
+        "target": 8,
+        "scale": 1
+      },
+      {
+        "source": 7,
+        "target": 6,
+        "scale": 1
+      },
+      {
+        "source": 8,
+        "target": 2,
+        "scale": 1
+      },
+      {
+        "source": 9,
+        "target": 11,
+        "scale": 1
+      },
+      {
+        "source": 10,
+        "target": 10,
+        "scale": 1
+      },
+      {
+        "source": 11,
+        "target": 16,
+        "scale": -1
+      },
+      {
+        "source": 12,
+        "target": 14,
+        "scale": 1
+      },
+      {
+        "source": 13,
+        "target": 21,
+        "scale": 1
+      },
+      {
+        "source": 14,
+        "target": 12,
+        "scale": 1
+      },
+      {
+        "source": 15,
+        "target": 20,
+        "scale": 1
+      },
+      {
+        "source": 16,
+        "target": 18,
+        "scale": -1
+      },
+      {
+        "source": 17,
+        "target": 17,
+        "scale": 1
+      },
+      {
+        "source": 18,
+        "target": 9,
+        "scale": 1
+      },
+      {
+        "source": 19,
+        "target": 15,
+        "scale": -1
+      },
+      {
+        "source": 20,
+        "target": 19,
+        "scale": -1
+      },
+      {
+        "source": 21,
+        "target": 13,
+        "scale": 1
+      },
+      {
+        "source": 22,
+        "target": 22,
+        "scale": 1
+      },
+      {
+        "source": 23,
+        "target": 23,
+        "scale": 1
+      }
+    ],
+    "failed_partial_state_count": 0,
+    "runtime_seconds": 0.01904029998695478
+  },
+  "step4b_search_tree_efficiency": {
+    "permutations_tested": 1,
+    "full_permutation_count": 40320,
+    "color_class_permutation_upper_bound": 24,
+    "reduction_vs_full_permutations": 0.9999751984126984,
+    "reduction_vs_color_class_upper_bound": 0.9583333333333334,
+    "baseline_permutations": null,
+    "reduction_vs_baseline": null,
+    "exact_search_runtime_seconds": 0.01904029998695478
+  },
+  "roi": {
+    "prefilter_reject_rate": 0.0,
+    "profiles_per_pair_ms": 638.4679000184406,
+    "search_tree_reduction": 0.9999751984126984,
+    "next_run_suggestions": [
+      "Low prefilter reject rate: strengthen secondary signatures or enable deeper bucket refinement threshold sooner."
+    ]
+  },
+  "step5_candidate_change_of_basis_system": {
+    "note": "candidate nonlinear system skipped: exact isomorphism already found"
+  },
+  "step6_hybrid_chain": {
+    "note": "numeric solve skipped: exact sparse search proved isomorphism"
+  },
+  "final_decision": {
+    "status": "isomorphic",
+    "proved": 1,
+    "method": "exact sparse monomial search"
+  },
+  "timing": {
+    "pipeline_total_seconds": 1.234084099996835,
+    "load_structure_constants_seconds": 0.010223399993265048,
+    "analyze_invariants_seconds": 0.563383899978362,
+    "profiles_seconds": 0.6384679000184406,
+    "exact_sparse_search_seconds": 0.01904029998695478,
+    "exact_sparse_search_runtime_seconds": 0.01904029998695478,
+    "pair_parallel_workers": 1
+  },
+  "artifact_cache": {
+    "enabled": 0,
+    "mode": "off",
+    "path": "isomorphism_artifact_cache.json",
+    "rep_hits": 0,
+    "rep_misses": 0,
+    "profile_hits": 0,
+    "profile_misses": 0,
+    "cache_schema_version": 2,
+    "cache_algo_tag": "post5-opt6"
+  },
+  "notes": [
+    "This script treats [g,g] as a nilradical candidate for the target class (2-step nilpotent kernel + low-dimensional solvable extension).",
+    "If linear_stage_pass is false, the pair is rejected as non-isomorphic by linear filters.",
+    "If linear_stage_pass is true, use the generated block system for nonlinear solving (Groebner / elimination / numeric-assisted exact checks)."
+  ]
+}

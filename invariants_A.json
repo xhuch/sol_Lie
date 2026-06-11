@@ -1,0 +1,14 @@
+{
+  "n": 23,
+  "center_dim": 0,
+  "derived_dim": 21,
+  "lower_central_series_dims": [
+    23,
+    21
+  ],
+  "bracket_map": {
+    "Z_dim": 0,
+    "map_rank": 0,
+    "Z_basis_indices": []
+  }
+}

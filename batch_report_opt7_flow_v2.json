@@ -1,0 +1,226 @@
+{
+  "batch_glob": "*extractor*.py",
+  "file_count": 2,
+  "loaded_count": 2,
+  "dimensions": [
+    23
+  ],
+  "bucket_count": 1,
+  "light_bucket_count": 1,
+  "collision_bucket_count": 1,
+  "collision_pair_count": 1,
+  "deepened_bucket_count": 0,
+  "pair_count": 1,
+  "pairs": [
+    {
+      "dim": 23,
+      "bucket_hash": "{\"center_dim\": 0, \"derived_dim\": 21, \"ds\": [21], \"ext_dim\": 2, \"extension_weight_multiset\": [[\"0\", \"2\"], [\"0\", \"2\"], [\"0\", \"2\"], [\"0\", \"2\"], [\"0\", \"2\"], [\"0\", \"2\"], [\"1\", \"0\"], [\"1\", \"0\"], [\"1\", \"0\"], [\"1\", \"0\"], [\"1\", \"0\"], [\"1\", \"0\"], [\"1\", \"0\"], [\"1/2\", \"1\"], [\"1/2\", \"1\"], [\"1/2\", \"1\"], [\"1/2\", \"1\"], [\"1/2\", \"1\"], [\"1/2\", \"1\"], [\"1/2\", \"1\"], [\"1/2\", \"1\"]], \"lcs\": [23, 21], \"n\": 23, \"nil_dim\": 21, \"weight_block_sig\": [[[\"0\", \"2\"], 6], [[\"1\", \"0\"], 7], [[\"1/2\", \"1\"], 8]]}",
+      "used_secondary_deepening": 0,
+      "alg1": "D:\\OneDrive - mail.xhu.edu.cn\\Isomorphism\\Lie_algebra\\invariant_extractor.py",
+      "alg2": "D:\\OneDrive - mail.xhu.edu.cn\\Isomorphism\\Lie_algebra\\invariant_extractor_B.py",
+      "linear_stage_pass": 1,
+      "checks": {
+        "dim": 1,
+        "center_dim": 1,
+        "derived_dim": 1,
+        "derived_series_dims": 1,
+        "lower_central_dims": 1,
+        "nilradical_candidate_dim": 1,
+        "extension_dim": 1,
+        "weight_blocks": 1,
+        "derivation_dim": 1,
+        "extension_weight_multiset": 1,
+        "bracket_tensor.Z_dim": 1,
+        "bracket_tensor.map_rank": 1,
+        "bracket_tensor.component_ranks": 1,
+        "extension_action_signatures": 1,
+        "extension_joint_plane_signature": 1,
+        "autn_oriented_signature": 1,
+        "matrix_pencil_signature": 1,
+        "matrix_group_signature": 1
+      },
+      "weight_block_signature_1": [
+        [
+          [
+            "0",
+            "2"
+          ],
+          6
+        ],
+        [
+          [
+            "1",
+            "0"
+          ],
+          7
+        ],
+        [
+          [
+            "1/2",
+            "1"
+          ],
+          8
+        ]
+      ],
+      "weight_block_signature_2": [
+        [
+          [
+            "0",
+            "2"
+          ],
+          6
+        ],
+        [
+          [
+            "1",
+            "0"
+          ],
+          7
+        ],
+        [
+          [
+            "1/2",
+            "1"
+          ],
+          8
+        ]
+      ],
+      "matrix_group_weak_signature_1": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "matrix_group_weak_signature_2": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "autn_signature_enabled": 1,
+      "batch_process_workers": 2
+    }
+  ],
+  "roi": {
+    "prefilter_reject_rate": 0.0,
+    "profiles_per_pair_ms": null,
+    "search_tree_reduction": null,
+    "next_run_suggestions": [
+      "Low prefilter reject rate: strengthen secondary signatures or enable deeper bucket refinement threshold sooner."
+    ]
+  },
+  "artifact_cache": {
+    "enabled": 0,
+    "mode": "off",
+    "path": "isomorphism_artifact_cache.json",
+    "rep_hits": 0,
+    "rep_misses": 0,
+    "profile_hits": 0,
+    "profile_misses": 0,
+    "cache_schema_version": 2,
+    "cache_algo_tag": "post5-opt6"
+  },
+  "timing": {
+    "pipeline_total_seconds": 3.336455599986948,
+    "profiles_total_seconds": null,
+    "batch_process_workers": 2,
+    "batch_process_workers_requested": 0,
+    "used_process_pool": 1
+  }
+}
