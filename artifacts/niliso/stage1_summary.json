@@ -1,0 +1,12 @@
+{
+  "dataset_root": "datasets",
+  "npz_file_count": 103,
+  "graph_count": 2382296,
+  "family_file_counts": {
+    "N6": 7,
+    "N7": 14,
+    "N8": 28,
+    "N9": 54
+  },
+  "manifest_csv": "artifacts/niliso/stage1_manifest.csv"
+}

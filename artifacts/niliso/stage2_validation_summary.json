@@ -1,0 +1,7 @@
+{
+  "dataset_root": "datasets",
+  "checks_total": 9530111,
+  "checks_failed": 0,
+  "checks_passed": 9530111,
+  "validation_csv": "artifacts/niliso/stage2_validation.csv"
+}

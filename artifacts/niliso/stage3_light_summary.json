@@ -1,0 +1,6 @@
+{
+  "dataset_root": "datasets",
+  "npz_file_count": 103,
+  "graphs_processed": 2382296,
+  "invariants_csv": "artifacts/niliso/stage3_light_invariants.csv"
+}
